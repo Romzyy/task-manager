@@ -1,0 +1,140 @@
+/* General styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f7f7f7;
+    margin: 0;
+    padding: 0;
+}
+
+/* Container and well styling */
+.well-custom {
+    background-color: #ffffff;
+    border: 1px solid #e3e3e3;
+    border-radius: 5px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, .05);
+    padding: 20px;
+    margin-top: 20px;
+}
+
+/* Nav tabs styling */
+.nav-tabs-custom {
+    margin-bottom: 20px;
+}
+
+.nav-tabs-custom>li>a {
+    color: #555;
+    font-weight: bold;
+    background-color: #f5f5f5;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 10px 15px;
+    transition: all 0.3s ease;
+}
+
+.nav-tabs-custom>li>a:hover,
+.nav-tabs-custom>li>a:focus {
+    background-color: #e5e5e5;
+    border-color: #ddd;
+}
+
+.nav-tabs-custom>li.active>a,
+.nav-tabs-custom>li.active>a:hover,
+.nav-tabs-custom>li.active>a:focus {
+    color: #ffffff;
+    background-color: #337ab7;
+    border: 1px solid #337ab7;
+}
+
+/* Form styling */
+.form-horizontal .form-group {
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.control-label {
+    font-weight: bold;
+    text-align: left;
+}
+
+.input-custom {
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    font-size: 14px;
+    transition: all 0.3s ease;
+}
+
+.input-custom:focus {
+    border-color: #66afe9;
+    outline: none;
+    box-shadow: 0 0 8px rgba(102, 175, 233, 0.6);
+}
+
+/* Button styling */
+.btn-success-custom {
+    background-color: #5cb85c;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 4px;
+    transition: all 0.3s ease;
+}
+
+.btn-success-custom:hover,
+.btn-success-custom:focus {
+    background-color: #4cae4c;
+    outline: none;
+    box-shadow: 0 0 8px rgba(76, 174, 76, 0.6);
+}
+
+.btn-primary {
+    background-color: #337ab7;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 4px;
+    transition: all 0.3s ease;
+}
+
+.btn-primary:hover,
+.btn-primary:focus {
+    background-color: #286090;
+    outline: none;
+    box-shadow: 0 0 8px rgba(40, 96, 144, 0.6);
+}
+
+.btn-success {
+    background-color: #5cb85c;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 4px;
+    transition: all 0.3s ease;
+}
+
+.btn-success:hover,
+.btn-success:focus {
+    background-color: #4cae4c;
+    outline: none;
+    box-shadow: 0 0 8px rgba(76, 174, 76, 0.6);
+}
+
+/* Title styling */
+h3.text-center {
+    color: #fff;
+    background-color: #337ab7;
+    padding: 10px;
+    border-radius: 4px;
+}
+
+/* Form toggle styling */
+#employee_pass_cng {
+    display: none;
+}
+
+.gap {
+    margin-top: 20px;
+}
